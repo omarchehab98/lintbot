@@ -1,0 +1,44 @@
+{
+  "name": "lintbot",
+  "version": "1.0.0",
+  "description": "ESLint bot that comments inline suggestions on pull requests for GitLab",
+  "main": "lib/lintbot.js",
+  "scripts": {
+    "start": "node lintbot.js",
+    "lint": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarchehab98/lintbot.git"
+  },
+  "keywords": [
+    "gitlab",
+    "eslint",
+    "pull",
+    "merge",
+    "request",
+    "code",
+    "review",
+    "suggest",
+    "edit",
+    "continuous",
+    "integration",
+    "ci"
+  ],
+  "author": "Omar Chehab <omarchehab98@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omarchehab98/lintbot/issues"
+  },
+  "homepage": "https://github.com/omarchehab98/lintbot#readme",
+  "dependencies": {
+    "abort-controller": "3.0.0",
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "9.1.0"
+  }
+}
