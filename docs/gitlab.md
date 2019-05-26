@@ -7,7 +7,7 @@
 npm install --save-dev lintbot
 
 # Create lintbot.js
-cat > lintbot.js < EOF
+cat > lintbot.js << EOF
 #!/usr/bin/env node
 const lintbot = require('lintbot');
 const { CLIEngine } = require('eslint');
