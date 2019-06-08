@@ -2,6 +2,10 @@
 
 ESLint bot that comments inline suggestions on pull requests for GitHub or GitLab
 
-![](./docs/screenshots/gitlab-demo.png)
+## [Setup for **GitHub**](./docs/github.md)
 
-## [Setup `lintbot` for **GitLab**](./docs/gitlab.md)
+![](./docs/screenshots/github-demo.png)
+
+## [Setup for **GitLab**](./docs/gitlab.md)
+
+![](./docs/screenshots/gitlab-demo.png)

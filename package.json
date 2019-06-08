@@ -1,7 +1,7 @@
 {
   "name": "lintbot",
   "version": "1.0.2",
-  "description": "ESLint bot that comments inline suggestions on pull requests for GitLab",
+  "description": "ESLint bot that comments inline suggestions on pull requests for GitHub or GitLab",
   "main": "lib/lintbot.js",
   "scripts": {
     "start": "node lintbot.js",
@@ -12,6 +12,7 @@
     "url": "git+https://github.com/omarchehab98/lintbot.git"
   },
   "keywords": [
+    "github",
     "gitlab",
     "eslint",
     "pull",
@@ -33,7 +34,8 @@
   "homepage": "https://github.com/omarchehab98/lintbot#readme",
   "dependencies": {
     "abort-controller": "3.0.0",
-    "node-fetch": "2.6.0"
+    "node-fetch": "2.6.0",
+    "parse-diff": "^0.5.1"
   },
   "devDependencies": {
     "eslint": "5.16.0",
