@@ -1,6 +1,6 @@
 {
   "name": "lintbot",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "ESLint bot that comments inline suggestions on pull requests for GitHub or GitLab",
   "main": "lib/lintbot.js",
   "scripts": {
